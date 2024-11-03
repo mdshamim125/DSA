@@ -4,7 +4,7 @@ def towerOfHanoi(n, source, temporary, target):
         return
     towerOfHanoi(n-1, source, target, temporary)
     print(f"move disk {n} from {source} to {target}")
-    towerOfHanoi(n-1, temporary, source, target)
+    towerOfHanoi(n-1, temporary, source,  target)
 
 number=int(input("enter the disk number: "))
 towerOfHanoi(number, "A", "B", "C")
