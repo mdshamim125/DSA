@@ -1,3 +1,6 @@
+"""সমস্যা: একটি স্ট্রিং বা লিস্টকে উল্টো করে দেখানো, যেমন "hello" কে "olleh" হিসেবে প্রদর্শন করা।"""
+
+
 def reverseOfString(s):
     if(len(s)==0 or len(s)== 1):
         return s

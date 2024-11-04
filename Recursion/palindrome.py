@@ -1,3 +1,6 @@
+"""সমস্যা: একটি শব্দ বা বাক্য পেছন থেকে পড়লেও একই থাকে কিনা, যেমন "radar", "level"।"""
+
+
 def isPalindrome(s):
     if(len(s)<=1):
         return True

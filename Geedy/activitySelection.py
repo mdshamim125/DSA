@@ -7,7 +7,7 @@ def activitySelection(activities):
             selected.append(activities[i])
     return selected
 
-activities = [(1, 4), (2, 3), (3, 5), (0,6), (5, 7), (8, 9)]
+activities = [(1, 4), (2, 3), (3, 5), (0, 6), (5, 7), (8, 9)]
 print("selected works: ",activitySelection(activities))
 
 

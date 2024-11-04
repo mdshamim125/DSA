@@ -8,6 +8,6 @@ def findPeak(arr, low, high, n):
         else:
             return findPeak(arr, mid+1, high, n)
         
-arr=list(map(int, input("Enter an arra with spacing: ").split()))
+arr=list(map(int, input("Enter an array with spacing: ").split()))
 n = len(arr)
 print(f"peak element: {findPeak(arr, 0, n-1, n)}")
