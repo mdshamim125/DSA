@@ -1,3 +1,6 @@
+"""এই সমস্যায় এমন সব কাজ নির্বাচন করতে হয় যেগুলো একে অপরের সাথে ওভারল্যাপ না করে। অর্থাৎ একটি কাজ শেষ হলে অন্যটি শুরু হবে।"""
+
+
 def activitySelection(activities):
     activities.sort(key=lambda x: x[1])
     selected = [activities[0]]
