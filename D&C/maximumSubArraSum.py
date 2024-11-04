@@ -1,3 +1,6 @@
+"""Divide and Conquer (D&C) পদ্ধতি ব্যবহার করে Maximum Subarray Sum সমস্যাটি সমাধান করতে পারি। সমস্যা অনুযায়ী, একটি অ্যারের এমন একটি সাবঅ্যারে খুঁজে বের করতে হবে যেটির উপাদানের যোগফল সর্বোচ্চ হবে।"""
+
+
 def max_crossing_sum(arr, low, mid, high):
     # Find the maximum sum on the left side
     left_sum = float('-inf')

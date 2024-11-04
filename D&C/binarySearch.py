@@ -1,3 +1,6 @@
+"""Binary Search একটি Divide and Conquer ভিত্তিক অনুসন্ধান অ্যালগরিদম যা সাজানো অ্যারেতে একটি নির্দিষ্ট উপাদানের অবস্থান খুঁজে বের করতে ব্যবহৃত হয়।"""
+
+
 def binarySearch(arr, low, high, x):
     if(low<=high):
         mid=(low+high)//2

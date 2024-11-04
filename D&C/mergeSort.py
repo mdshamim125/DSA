@@ -31,6 +31,9 @@ mergeSort(arr)
 print("Sorted array is: ", arr)"""
 
 
+"""Merge Sort একটি Divide and Conquer অ্যালগরিদম, যা একটি অ্যারেকে ছোট ছোট উপ-অ্যারে বিভক্ত করে এবং তারপর সেগুলোকে সঠিক ক্রমে মার্জ করে পুরো অ্যারেটি সাজানো হয়।"""
+
+
 def mergeSort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
