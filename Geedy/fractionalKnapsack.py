@@ -9,12 +9,13 @@ def fractionalKnapsack(capacity, items):
 
     totalValue = 0
     for item in items:
-        if(capacity>=item.weight):
-            totalValue+=item.value
-            capacity-=item.weight
-        else:
-            totalValue+=item.ratio * capacity
-            break
+        if(capacity > 0):
+            if(capacity>=item.weight):
+                totalValue+=item.value
+                capacity-=item.weight
+            else:
+                totalValue+=item.ratio * capacity
+                break
     return totalValue
 
 items = [Item(60, 10), Item(100, 20), Item(120, 30)]
